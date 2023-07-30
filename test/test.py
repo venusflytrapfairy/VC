@@ -8,5 +8,5 @@ def test_load_json():
   response = load_json()
   assert isinstance(response, dict)
   assert response.get("Anusha Asim") =="Football"
-  pytest test/test.py -s
+  
   
